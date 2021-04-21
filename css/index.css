@@ -28,6 +28,10 @@ header .banner h1 {
     font-size: 4rem;
 }
 
+.highlight {
+    color: var(--accent-color);
+}
+
 #burger-checkbox {
     display: none;
 }
@@ -123,6 +127,12 @@ header .banner h1 {
     .product-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.products-carousel img {
+    display: block;
+    width: 50%;
+    margin: auto;
 }
 
 .contact-form label {

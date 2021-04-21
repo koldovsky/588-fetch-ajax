@@ -9,6 +9,7 @@
     </head>
     <body>
         <header id="home">
+            <div class="countdown"></div>
              <nav>
                 <div class="logo">
                     Stickerz
@@ -20,7 +21,8 @@
                     <a href="#products">Products</a>
                     <a href="#contacts">Contacts</a>
                     <a href="cart.html">Cart</a>
-                </div> 
+                </div>
+                <div class="clock"></div> 
              </nav> 
              <section class="banner">
                  <h1>Stickerz!</h1>
@@ -29,44 +31,14 @@
         </header>
         <main>
             <h2 id="products">Products</h2>
-            <div class="product-list">
-                <article class="product">
-                    <img src="img/baby-yoda.svg" alt="Baby Yoda">
-                    <h3>Baby Yoda</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo voluptatem aliquam provident odio ducimus error soluta tempora vero sint? Ipsa ipsum veniam, minus unde nihil incidunt cum corrupti. Ad.</p>
-                    <div class="buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/banana.svg" alt="Banana">
-                    <h3>Banana</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo voluptatem aliquam provident odio ducimus error soluta tempora vero sint? Ipsa ipsum veniam, minus unde nihil incidunt cum corrupti. Ad.</p>
-                    <div class="buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/girl.svg" alt="Girl">
-                    <h3>Girl</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo voluptatem aliquam provident odio ducimus error soluta tempora vero sint? Ipsa ipsum veniam, minus unde nihil incidunt cum corrupti. Ad.</p>
-                    <div class="buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/viking.svg" alt="Viking">
-                    <h3>Viking</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo voluptatem aliquam provident odio ducimus error soluta tempora vero sint? Ipsa ipsum veniam, minus unde nihil incidunt cum corrupti. Ad.</p>
-                    <div class="buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
+            <div class="products-carousel">
+                <img src="" alt="Carosel Image">
+                <button class="carousel-prev">&lt;</button>
+                <button class="carousel-next">&gt;</button>
             </div>
+            <button class="sort-ascending">Sort Ascending</button>
+            <button class="sort-descending">Sort Descending</button>
+            <div class="product-list"></div>
         </main>
         <footer>
             <h2>Contacts</h2>
@@ -83,5 +55,9 @@
             </form>
             <p>Some contacts info...</p>
         </footer>
+        <script src="js/index.js"></script>
+        <script src="js/products.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/carousel.js"></script>
     </body>
 </html>
